@@ -1,4 +1,4 @@
-// Leia 4 notas de um aluno e imprimir a média aritmética.
+// Leia 4 notas de um aluno e imprima a mÃ©dia aritmÃ©tica.
 
 #include<iostream>
 #include<locale.h>
@@ -8,18 +8,18 @@ int main (){
 	
 	float n1, n2, n3, n4, media;
 	
-	std::cout << "Digite a 1° nota: ";
+	std::cout << "Digite a 1Â° nota: ";
 	std::cin >> n1;
-	std::cout << "Digite a 2° nota: ";
+	std::cout << "Digite a 2Â° nota: ";
 	std::cin >> n2;
-	std::cout << "Digite a 3° nota: ";
+	std::cout << "Digite a 3Â° nota: ";
 	std::cin >> n3;
-	std::cout << "Digite a 4° nota: ";
+	std::cout << "Digite a 4Â° nota: ";
 	std::cin >> n4;
 	
 	media = (n1 + n2 + n3 + n4) / 4;
 	
-	std::cout << "A média das notas adquiridas é: " << media;
+	std::cout << "A mÃ©dia das notas adquiridas Ã©: " << media;
 	
 	return 0;
 }

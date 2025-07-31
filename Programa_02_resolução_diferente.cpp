@@ -1,7 +1,8 @@
-// Ler dois n˙meros inteiros e imprimir o resultado da adiÁ„o, subtraÁ„o, multiplicaÁ„o e divis„o.
-// Antes da exibiÁ„o do resultado, dever· aparecer o texto: SOMA, SUBTRA«√O, MULTIPLICA«√O, DIVIS√O.
+// Ler dois n√∫meros inteiros e imprimir o resultado da adi√ß√£o, subtra√ß√£o, multiplica√ß√£o e divis√£o.
+// Antes da exibi√ß√£o do resultado, dever√° aparecer o texto: SOMA, SUBTRA√á√ÉO, MULTIPLICA√á√ÉO, DIVIS√ÉO.
 
 #include<iostream>
+#include<iomanip>
 #include<locale.h>
 
 int main(){
@@ -9,9 +10,9 @@ int main(){
 	
 	float n1, n2, soma, sub, multi, div;
 	
-	std::cout << "Digite o 1∞ n˙mero: ";
+	std::cout << "Digite o 1¬∞ n√∫mero: ";
 	std::cin >> n1;
-	std::cout << "Digite o 2∞ n˙mero: ";
+	std::cout << "Digite o 2¬∞ n√∫mero: ";
 	std::cin >> n2;
 	
 	soma = n1 + n2;
@@ -20,9 +21,10 @@ int main(){
 	div = n1 / n2;
 	
 	std::cout << "SOMA: " << soma << std::endl;
-	std::cout << "SUBTRA«√O: " << sub << std::endl;
-	std::cout << "MULTIPLICA«√O: " << multi << std::endl;
-	std::cout << "DIVIS√O: " << div << std::endl;
+	std::cout << "SUBTRA√á√ÉO: " << sub << std::endl;
+	std::cout << "MULTIPLICA√á√ÉO: " << multi << std::endl;
+	std::cout << std::fixed << std::setpricision(2);
+	std::cout << "DIVIS√ÉO: " << div << std::endl;
 	
 	return 0;
 }
